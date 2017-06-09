@@ -44,11 +44,11 @@ scales = \relative c {
   e\4-1
   fis\4-3 
   \tweak color \root_color
-  g\4-1_\markup { \teeny "5th pos." }  % root
+  g\4-4  % root
 
   a\3-1
   b\3-3
-  c\3-1
+  c\3-1_\markup { \teeny "5th pos." }
   d\3-3
 
   e\2-1
@@ -103,8 +103,8 @@ scales = \relative c {
   \tweak color \root_color
   e\6-0_\markup { \teeny "2nd pos." }   % root
   \mark "E melodic minor"
-  fis\6-2
-  g\6-3
+  fis\6-1
+  g\6-2
   a\6-4
 
   b\5-1
